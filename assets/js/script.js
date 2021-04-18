@@ -19,9 +19,26 @@ $(function(){
 // se habilita uso de popover en el proyecto según documentación de bootstrap
   $('[data-toggle="popover"]').popover();
 
+  // se habilita uso de tooltip en el proyecto según documentación de bootstrap
+
+  $('[data-toggle="tooltip"]').tooltip()
+
+
+// Se agregar acción para que desaparezcan los parrafos al hacerle doble click
+
+  $("p").dblclick(function(){
+    $(this).hide('slow');
+    });
+
+// Se agrega acción que modifica el color de los iconos al realizarle un click
+
+    $("i").click(function(){
+      $(this).css({
+      "color": "#f0ad4e",
+      });
+      
+      });
+    
+
 });
 
-// se habilita uso de tooltip en el proyecto según documentación de bootstrap
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
