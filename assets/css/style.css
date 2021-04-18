@@ -1,10 +1,11 @@
+
+/*se define estilo general para el color de fondo y fuente de la pagina*/
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #000000;
 }
 
-
-
+/*Se trabaja con distintos elementos del html llamandolos por su ID o clase según corresponda para entregar estilo*/
 .img-logo
 {
   
@@ -18,7 +19,6 @@ color:#FFFFFF;
 font-family: 'Pacifico', cursive;
 font-weight: 400;
 font-size: 1.5em;
-
 
 }
 
@@ -66,6 +66,15 @@ text-align: center;
   display: inline-block;
   padding: 0.3em;
   color: #FFFFFF;
+
+}
+
+.foo-text
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+
 
 }
 
