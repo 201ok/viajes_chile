@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+}
+
+
+
+.img-logo
+{
+
+width: 3rem;
+
+}
+
+.logo-text
+{
+color:#FFFFFF;
+
+}
+
+#id
+{
+background-color: #000000;
+
+}
+
+.text-1
+{
+padding-bottom: 2rem;
+border-bottom: #5bc0de solid;
+text-align: center;
+font-family: 'roboto', sans-serif;
+font-weight: 700;
+
+}
+
+.text-2
+{
+padding-bottom: 2rem;
+border-bottom: #5bc0de solid;
+text-align: center;
+padding-top: 2em;
+font-family: 'roboto', sans-serif;
+font-weight: 700;
+}
+
+.ico-des
+{
+
+margin: 5em solid;
+border: #5bc0de;
+background-color: #5bc0de;
+padding-right: 3em;
+padding-left: 3em;
+text-align: center;
+
+
+}
+
+.footer-icon-section a
+{
+  display: inline-block;
+  padding: 0.3em;
+  color: #FFFFFF;
+
+}
+
+.present-sec p
+{
+font-family: 'roboto',sans-serif;
+font-weight: 300;
+}
+
+.card-deck
+{
+
+  font-family: 'roboto',sans-serif;
+  font-weight: 300;
+
+}
+
+
+
+
+
