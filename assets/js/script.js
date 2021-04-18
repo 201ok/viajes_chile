@@ -19,9 +19,15 @@ $(function(){
 // se habilita uso de popover en el proyecto según documentación de bootstrap
   $('[data-toggle="popover"]').popover();
 
+  // se habilita uso de tooltip en el proyecto según documentación de bootstrap
+
+  $('[data-toggle="tooltip"]').tooltip()
+
+// Esconder los parrafos al hacer doble click sobre ellos
+  $("p").dblclick(function(){
+    $(this).hide('slow');
+    });
+
 });
 
-// se habilita uso de tooltip en el proyecto según documentación de bootstrap
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+
